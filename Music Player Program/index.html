@@ -4,10 +4,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./index.css">
+  <script src="https://kit.fontawesome.com/63d3474f57.js" crossorigin="anonymous"></script>
   <title>Music Player</title>
 </head>
 <body>
-  
+  <div class="container">
+    <div class="music-player">
+      <nav>
+        <div class="circle">
+          <i class="fa-solid fa-angle-left"></i>
+        </div>
+        <div class="circle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+      <img src="./images/468-thumbnail.png" class="song-img">
+      <h1>Despacito</h1>
+      <p>Luis Fonsi Ft. Puerto Rican</p>
+
+      <audio class="js-song">
+        <source src="media/Go! - NEFFEX.mp3" type="audio/mpeg">
+      </audio>
+      <input type="range" value="0" class="progress js-progress">
+      <div class="controls">
+        <div><i class="fa-solid fa-backward"></i></div>
+        <div><i class="fa-solid fa-play js-ctrlIcon"></i></div>
+        <div><i class="fa-solid fa-forward"></i></div>
+      </div>
+    </div>
+  </div>
   <script src="./scripts/index.js" type="module"></script>
 </body>
 </html>
