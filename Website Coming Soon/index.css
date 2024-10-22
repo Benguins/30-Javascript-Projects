@@ -47,7 +47,7 @@
 .launching-time{
   display: flex;
 }
-.launching-time div{
+.launching-time div{ 
   flex-basis: 100%;
   display: flex;
   flex-direction: column;
